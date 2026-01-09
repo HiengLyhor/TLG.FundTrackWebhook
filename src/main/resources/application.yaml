@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: telegram-bot-webhook
+
+server:
+  port: 80
+
+telegram:
+  bot:
+    token: ${TELEGRAM_BOT_TOKEN}
+    username: myfinancetrackebot
+    webhook-path: /webhook
+genai:
+  key: ${GENAI_KEY}
+ai:
+  model: ${AI_MODEL}
